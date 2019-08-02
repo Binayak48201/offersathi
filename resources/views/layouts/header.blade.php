@@ -80,9 +80,7 @@
     		</ul>
     	</div>
     </nav><!--=========-TOP_BAR============-->
-    
     <!--=========MIDDEL-TOP_BAR============-->
-    
     <div>
     	<div class="container">
     		<div class="row display-table" style="display:flex; align-items:center;">
@@ -95,17 +93,16 @@
     			<!-- end col -->
     			<div class="col-sm-9" style="padding: 0px">
     				<form method="get" action="/latest_deals">
-    					
     						<div class="col-sm-9">
     							<input type="text"  name="s" style="border-radius: 15px" class="form-control" placeholder="Search" value="{{isset($s) ? $s : ''}}" required>
     						</div>
     						<!-- end col -->
     						<!-- end col -->
-    						<div class="col-sm-3 hidden-xs" style="margin-bottom: 0px;">
-    							<button  type="submit" class="btn-success btn-block btn-lg" value="Search">Search</button>
+    						<div class="col-sm-3 hidden-xs" style="margin-bottom: 0px;">     
+    							<button  type="submit" class="btn btn-secondary" value="Search">Search</button>
     						</div>
     						<!-- end col -->
-    					<!-- end row -->
+    					<!-- end row -->      
     				</form>
     			</div>
     			<!-- end col -->
@@ -128,7 +125,6 @@
     		<div class="collapse navbar-collapse navbar-1" style="margin-top: 0px;">            
     			<ul class="nav navbar-nav">
     				<li><a href="/" class="dropdown-toggle" data-hover="dropdown">Home</a></li>
-
     				<li class="dropdown megaDropMenu">
     					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="false">Category <i class="fa fa-angle-down ml-5"></i></a>
     					<ul class="dropdown-menu row">

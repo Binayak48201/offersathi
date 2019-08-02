@@ -1,39 +1,3 @@
-<!--<div class="section deals-header-area">-->
-<!--  <div class="row row-tb-20">-->
-<!--    <br>-->
-
-<!--    <div class="slideshow-container-fluid">-->
-
-<!--      @foreach( $slides as $slide )-->
-      
-<!--      <div class="mySlides fade">-->
-        
-<!--        <img src="/storage/slider_images/{{$slide->slider_img}}" title="{{$slide->title}}" style="width:100%;">-->
-        
-<!--      </div>-->
-      
-<!--      @endforeach-->
-
-
-
-<!--      <div style="text-align:center">-->
-        
-<!--        @foreach( $slides as $slide )-->
-        
-<!--        <span class="dot"></span> -->
-        
-<!--        @endforeach-->
-        
-<!--      </div>-->
-
-<!--    </div>-->
-    <!--<img src="http://www.unionlife.com.np/public/uploads/source/slider/1920x768.jpg?1553339055362" style="width: 100%;"> -->
-<!--    <br><br><br><br>-->
-<!--  </div>-->
-
-<!--</div>-->
-
-
 <div class="container">
   <div class="section deals-header-area ptb-30">
     <div class="row row-tb-20">
@@ -57,7 +21,6 @@
               <ol class="carousel-indicators">
                 @foreach( $slides as $slide )
                 <li data-target="#myCarousel" data-slide-to="{{ $loop->index }}" class="{{ $loop->first ? 'active' : '' }}">
-
                 </li>
                 @endforeach
             </ol>
